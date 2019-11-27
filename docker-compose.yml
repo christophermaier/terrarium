@@ -15,6 +15,7 @@ services:
         read_only: false
     environment:
       - HAB_NONINTERACTIVE=1
+      - HAB_LICENSE=accept-no-persist
     networks:
       habitat:
         aliases:
@@ -35,6 +36,7 @@ services:
         read_only: false
     environment:
       - HAB_NONINTERACTIVE=1
+      - HAB_LICENSE=accept-no-persist
     networks:
       habitat:
         aliases:
@@ -54,6 +56,7 @@ services:
         read_only: false
     environment:
       - HAB_NONINTERACTIVE=1
+      - HAB_LICENSE=accept-no-persist
     networks:
       habitat:
         aliases:
@@ -73,6 +76,7 @@ services:
         read_only: false
     environment:
       - HAB_NONINTERACTIVE=1
+      - HAB_LICENSE=accept-no-persist
     networks:
       habitat:
         aliases:
@@ -92,6 +96,7 @@ services:
         read_only: false
     environment:
       - HAB_NONINTERACTIVE=1
+      - HAB_LICENSE=accept-no-persist
     networks:
       habitat:
         aliases:
@@ -107,6 +112,7 @@ services:
         read_only: false
     environment:
       - HAB_NONINTERACTIVE=1
+      - HAB_LICENSE=accept-no-persist
     networks:
       habitat:
 
